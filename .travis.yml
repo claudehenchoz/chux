@@ -9,6 +9,6 @@ script:
   - lb config --debian-installer live -b hdd --archive-areas "main contrib non-free" --bootappend-live "boot=live config locales=en_US.UTF-8 keyboard-layouts=sg username=user hostname=wheezy-custom user-fullname=user@wheezy-custom"
   - echo task-xfce-desktop > config/package-lists/desktop.list.chroot
   - echo "ntp acpid sudo bzip2 rsync git mc xfce4 xfce4-terminal lightdm" > config/package-lists/custom.list.chroot
-  - lb build
+  - sudo lb build
 # addons:
 #   artifacts: true
