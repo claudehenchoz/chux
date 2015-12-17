@@ -1,6 +1,6 @@
 language: cpp
-#sudo: required
-#dist: trusty
+# sudo: required
+# dist: trusty
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y live-build debootstrap
@@ -10,5 +10,5 @@ script:
   - echo task-xfce-desktop > config/package-lists/desktop.list.chroot
   - echo "ntp acpid sudo bzip2 rsync git mc xfce4 xfce4-terminal lightdm" > config/package-lists/custom.list.chroot
   - lb build
-#addons:
-#  artifacts: true
+# addons:
+#   artifacts: true
