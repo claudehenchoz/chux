@@ -1,0 +1,4 @@
+services.addons.mozilla.org:HSTS	0	16858	1488145178577,1,0
+addons.cdn.mozilla.net:HSTS	0	16858	1488145060534,1,0
+taiga.io:HSTS	0	16858	1488145799709,1,0
+raw.githubusercontent.com:HSTS	0	16858	1488145827280,1,0

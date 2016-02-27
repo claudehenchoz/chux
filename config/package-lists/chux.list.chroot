@@ -6,5 +6,7 @@ rsync
 git
 mc
 iceweasel
+xul-ext-nosquint
+ttf-mscorefonts-installer
+wireshark
 firmware-iwlwifi
-
