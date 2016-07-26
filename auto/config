@@ -7,6 +7,6 @@ lb config noauto \
 	--debian-installer live \
 	--binary-images iso-hybrid \
 	--archive-areas "main contrib non-free" \
-	--mirror-bootstrap http://debian.csg.uzh.ch/debian/ \
+	--mirror-bootstrap http://mirrors.digitalocean.com/debian/ \
 	--bootappend-live "boot=live config keyboard-layouts=ch username=chux hostname=chux user-fullname=chux@chux toram" \
 	"${@}"
