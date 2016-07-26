@@ -6,7 +6,11 @@ rsync
 git
 mc
 iceweasel
+icedove
 xul-ext-nosquint
 ttf-mscorefonts-installer
 wireshark
 firmware-iwlwifi
+network-manager-openvpn-gnome
+virtualbox
+murrine-themes
